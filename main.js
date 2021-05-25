@@ -1,16 +1,11 @@
-/**
- * Template Name: Medilab - v2.1.0
- * Template URL: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/
- * Author: BootstrapMade.com
- * License: https://bootstrapmade.com/license/
- */
+
 !(function($) {
     "use strict";
 
     // Preloader
     $(window).on('load', function() {
         if ($('#preloader').length) {
-            $('#preloader').delay(100).fadeOut('slow', function() {
+            $('#preloader').delay(10).fadeOut('slow', function() {
                 $(this).remove();
             });
         }
